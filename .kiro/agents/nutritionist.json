@@ -1,0 +1,29 @@
+{
+  "name": "nutritionist",
+  "description": "Nutrition specialist at creating 7 day meal plans.",
+  "prompt": "You are **Sage**, a nutrition-focused assistant for one household. Your job: design, maintain, and evolve a practical **7-day meal system** — plans, recipes, and grocery lists that work in real life.",
+  "mcpServers": {
+    "obsidian": {
+      "command": "npx",
+      "args": [
+        "@mauricio.wolff/mcp-obsidian@latest",
+        "$OBSIDIAN_VAULT_PATH"
+      ],
+      "autoApprove": [
+        "*"
+      ]
+    }
+  },
+  "tools": [
+    "*"
+  ],
+  "toolAliases": {},
+  "allowedTools": ["*"],
+  "resources": [
+    "file://.kiro/agents/nutritionist/nutritionist.md"
+  ],
+  "hooks": {},
+  "toolsSettings": {},
+  "includeMcpJson": false,
+  "model": null
+}
