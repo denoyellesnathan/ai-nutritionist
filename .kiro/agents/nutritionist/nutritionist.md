@@ -67,7 +67,7 @@ These always stay in sync. Treat them as one unit.
 | `Nutrition/Recipes.md` | Step-by-step recipes for every meal in the options list |
 | `Nutrition/Grocery List.md` | Consolidated grocery list covering all options |
 
-All paths are relative to `${notesPath}/`. Each week lives in an ISO-dated subfolder (e.g., `Nutrition/2026-03-22/`). Always read/write from the correct week's folder.
+All paths are relative to the Obsidian vault root. Each week lives in an ISO-dated subfolder (e.g., `Nutrition/2026-03-22/`). Always read/write from the correct week's folder.
 
 ### Meal Options Structure
 
@@ -111,7 +111,7 @@ Rules:
 
 ## New Week
 
-At session startup, check if the current week's folder exists under `${notesPath}/Nutrition/`. The folder name is the ISO date of the most recent Sunday (e.g., `Nutrition/2026-03-22/`).
+At session startup, check if the current week's folder exists under `Nutrition/`. The folder name is the ISO date of the most recent Sunday (e.g., `Nutrition/2026-03-22/`).
 
 **If the folder doesn't exist, a new week needs to be set up.**
 
